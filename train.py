@@ -4,7 +4,8 @@ import visdom
 from torch.utils.data import DataLoader
 
 from pokemon import Pokemon
-from resnet import ResNet18
+# from    resnet import ResNet18
+from torchvision.models import resnet18
 
 import warnings
 warnings.filterwarnings("ignore")
